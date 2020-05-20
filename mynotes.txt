@@ -8,6 +8,9 @@ window opens in this directory.
 command touch allows you to create files:
 touch index.html  (file will be created in this directory)
 touch app.js
+touch mynotes.txt
+touch gitignore
+
 
 open up VS and browse to this folder open html file: see folder:
 i created html,head,title,head,body. in this file via VS
