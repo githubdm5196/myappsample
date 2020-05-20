@@ -46,3 +46,11 @@ everytime you change something in VS like this text file you have to do a git st
 here you will see mynotes has been modified and you need to commit to git repository by doing git commit 
 type commit in editor save it and close .
 shortcut would be this type git commit -m "change to mynotes.txt"  enter  now you will not see VS editor come up.
+
+you need to add .gitignore folder and put files you dont want to commit. here how
+create new folder using touch .gitignore
+create log.txt file using touch log.txt
+open VS and put log.txt inside gitignore folder
+go to bash and do git status and you only see new gitignore folder to commit 
+commit it 
+now when you edit log.txt and save it it will not be added as a changed file cuz its in gitignore folder
