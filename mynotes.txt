@@ -40,3 +40,4 @@ type git commit (since i choose VS it opens in VS)
 read through and uncomment "intial commit"  note if you see dot next to file its not save.  ctl+S  saves it.
 test to see if it saves
 test2
+test3
