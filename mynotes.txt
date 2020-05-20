@@ -38,6 +38,8 @@ to fit this just re add file than do another git status and error show go away.
 
 type git commit (since i choose VS it opens in VS)
 read through and uncomment "intial commit"  note if you see dot next to file its not save.  ctl+S  saves it.
-test to see if it saves
-test2
-test3
+
+everytime you change something in VS like this text file you have to do a git status
+here you will see mynotes has been modified and you need to commit to git repository by doing git commit 
+type commit in editor save it and close .
+shortcut would be this type git commit -m "change to mynotes.txt"  enter  now you will not see VS editor come up.
