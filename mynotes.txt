@@ -29,7 +29,7 @@ git status
 note: look for "changes to be commited"  these are the files in stage. untracked files will not be added.
 to remove this file from commited
 git --cached index.html
-git status  (no files to commit in stage area)
+git status  (no files to commit in stage area)  always check this 
 git add *.html   ( * will add all html files into stage area)
 git add .  (dot says add everything to stage area)
 git status  (verify)
