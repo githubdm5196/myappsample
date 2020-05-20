@@ -1,0 +1,42 @@
+download git from Internet:
+git-scm/download/win
+
+launch bash.
+created folder on destop called gitapp. (right click n select bash here)  new
+window opens in this directory.
+
+command touch allows you to create files:
+touch index.html  (file will be created in this directory)
+touch app.js
+
+open up VS and browse to this folder open html file: see folder:
+i created html,head,title,head,body. in this file via VS
+
+go back to your bash and type: git init (this command creates repository ".git" on local pc)
+now we initialized this folder as a git repository and we can use git commands.
+ADD your name and email
+git config --global user.name "David Martinez"
+git config --global user.email "davmart2002@yahoo.com"
+
+now we can add index.html to our git repository with this command:
+git add index.html
+this doesn't tell us anything once added, so verify by git status (tells us what's in the staging file.)
+
+git status 
+note: look for "changes to be commited"  these are the files in stage. untracked files will not be added.
+to remove this file from commited
+git --cached index.html
+git status  (no files to commit in stage area)
+git add *.html   ( * will add all html files into stage area)
+git add .  (dot says add everything to stage area)
+git status  (verify)
+
+if you change your index.html in VS and save it when you do git status it will cry
+"changes not staged for commit" shows modified: index.html
+
+to fit this just re add file than do another git status and error show go away.
+
+type git commit (since i choose VS it opens in VS)
+read through and uncomment "intial commit"  note if you see dot next to file its not save.  ctl+S  saves it.
+test to see if it saves
+test2
