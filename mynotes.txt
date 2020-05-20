@@ -54,3 +54,16 @@ open VS and put log.txt inside gitignore folder
 go to bash and do git status and you only see new gitignore folder to commit 
 commit it 
 now when you edit log.txt and save it it will not be added as a changed file cuz its in gitignore folder
+
+go to github and login
+select new repository put name and description
+select public
+take default for rest and create repository
+copy the git remote link form your github you just created and paste to your local bash:
+
+git remote add origin https://github.com/githubdm5196/myappsample.git
+
+next do a git remote (you should see origin)
+copy next link from your github acct to your local bash:
+git push -u origin master
+the above command does a push from your local repository to github repository
