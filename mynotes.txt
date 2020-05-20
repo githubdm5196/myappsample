@@ -66,4 +66,12 @@ git remote add origin https://github.com/githubdm5196/myappsample.git
 next do a git remote (you should see origin)
 copy next link from your github acct to your local bash:
 git push -u origin master
-the above command does a push from your local repository to github repository
+the above command does a push from your local repository to github repository master
+i created a README.md and once done i had to do a git push
+this git push send up to master on github
+
+now lets say you see a code in public that you want to clone
+select clone on github 
+goto local computer and create new folder on desktop -right click open here in bash
+git clone and paste link you got from clone link from github
+
